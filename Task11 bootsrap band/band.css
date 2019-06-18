@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-inner > .item {
+    height: 650px;
+ }
+
+ .container {
+    padding: 80px 120px;
+}
+
+h1 {
+    letter-spacing: 5px;
+  }
+
+.text-center h2 {
+    letter-spacing: 5px;
+  }
+
+
+.dates{
+    background-color: rgb(46, 46, 46);
+    color:gray;
+}
+.dates h2{
+    letter-spacing: 4px !important;
+    color:#fff;
+
+}
+.dates p {
+    color:#fff;
+}
+.band{
+    margin: 340px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.contact h3{
+   letter-spacing: 4px;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+.label-danger{
+    margin:10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+.btn:hover,
+.btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.footer{
+    padding:30px;
+    background-color: #333;
+    color:#fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

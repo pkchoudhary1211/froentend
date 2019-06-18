@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap form.css">
+    <script src="./javascript/bootstrap form.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- <div class="bg-overlay"> -->
+    <div class="bg-img">
+        <div class="container text-center">
+            <h2>CREATE ACCOUNT</h2>
+            <form action="/action_page.php" style="padding-left: 50px;padding-right: 50px;">
+                <div class="form-group">
+
+                    <input type="text" class="form-control" id="name" placeholder="Name" name="name" onblur="f1nm()" />
+                    <label id="lbnm"></label>
+                </div>
+                <div class="form-group">
+
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" name="email"
+                        onblur="f2emailnm()" />
+                    <label id="lbemail"></label>
+                </div>
+                <div class="form-group">
+
+                    <input type="password" class="form-control" id="pwd" placeholder="Password" name="pwd"
+                        onblur="f2pass()" />
+                    <label id="f2pass"></label>
+                </div>
+                <div class="form-group">
+
+                    <input type="password" class="form-control" id="pwd" placeholder="Re-enter password" name="pwd"
+                        onblur="f2rpass()" />
+                    <label id="f2rpass"></label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" name="remember">I Agree all statements in Terms of
+                        service</label>
+                </div>
+
+                <button type="button" onblur="f2rpass()" class="btn btn-primary btn-block">SIGN UP </button>
+
+                <div class="p">
+                    <p> Have already an account? <a href>login here</a> </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

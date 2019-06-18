@@ -1,0 +1,334 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url('font-awesome.css');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif!important;
+    overflow-x: hidden;
+}
+.container {
+    padding: 80px 120px;
+}
+
+/*NAV-BAR*/
+
+.logohp{
+    color:#fff!important;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+.navbar-default {
+    background-color:transparent!important;
+    height:70px;
+    border: none!important;
+   
+}
+
+
+.navbar-nav {
+    float:right!important;
+    margin:10px!important;
+    color:#fff;
+}
+
+.navbar-nav {
+    float:right!important;
+}
+
+.navbar-nav{
+    color:#fff!important;
+    color:#fff!important;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color:#fff!important;
+    font-size:15px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/* NAV-BAR-ENDS*/
+
+/* COVER*/
+
+.bg-img {
+    background-image: url("img/cover.jpg");
+    min-height: 625px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hero-text p{
+    color:rgb(226, 226, 226);
+    font-size:18px;
+}
+
+.learnmore-btn{
+    color:gray;
+    background:#fff;
+    padding:10px;
+    width:200px;
+    border-radius:  50px;
+    border:2px solid #fff;
+    font-size:15px;
+    margin:5px;
+    transition: .5s ease;
+   
+   
+}
+.learnmore-btn:hover{
+    color:black;
+    background-color: rgb(204, 204, 204); 
+    border:2px solid   black;
+}
+/*COVER ENDS*/
+
+/* FOREST */
+.mainhead{
+    margin-top: -22px;
+}
+
+hr.style6 {
+	background-color: #fff;
+	border-top: 2px dotted #8c8b8b;
+}
+.planinginfo{
+    padding: 30px;
+}
+.learnmore-btnmid{
+    color:#fff;
+    background: rgb(0, 80, 0);
+    padding:10px;
+    width:200px;
+    border-radius:  50px;
+    border:2px solid #fff;
+    font-size:15px;
+    margin:5px;
+    transition: .5s ease;
+    margin-left: 67px;
+    margin-top: 80px;
+}
+.learnmore-btnmid:hover{
+    color:black;
+    background-color: rgb(204, 204, 204); 
+    border:2px solid   black;
+}
+/* FOREST-ENDS*/
+
+/*BETTER-WORLD*/
+.betterworld {
+    background-color: rgb(245, 245, 245);
+}
+.cont{
+    padding: 30px;
+    height: 450px;
+}
+.four{
+    border: 1px dotted #75756f;
+} 
+.hand{
+    height:450px!important;
+    padding:top;
+    width:100%;
+    object-fit: cover;
+    margin-left: 118px;
+} 
+.box{
+    margin-left: 20px;
+}
+
+/*BETTER-ENDS*/
+
+.controls.autoplay{
+    width: 45%;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -29%;
+}
+
+/*VEDIO-COVER*/
+
+.bg-img1 {
+    background-color: rgb(14, 65, 14);
+    min-height: 625px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.hero-text1 {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hero-text1 p{
+    color:rgb(226, 226, 226);
+    font-size:18px;
+}
+
+.learnmore-btn1{
+    color:gray;
+    background:#fff;
+    padding:10px;
+    width:200px;
+    border-radius:  50px;
+    border:2px solid #fff;
+    font-size:15px;
+    margin:5px;
+    transition: .5s ease;
+   
+   
+}
+.learnmore-btn1:hover{
+    color:black;
+    background-color: rgb(204, 204, 204); 
+    border:2px solid   black;
+}
+/* VEDIO-COVER ENDS*/
+
+/*BETTER-WORLD-1*/
+.betterworld1 {
+    background-color: rgb(245, 245, 245);
+}
+.row1{
+    margin-top: 300px!important;
+    margin-bottom: 80px!important;
+}
+.cont1{
+    padding: 30px;
+    height: 450px;
+}
+.learnmore-btnjob{
+    color:#fff;
+    background: rgb(0, 80, 0);
+    padding:10px;
+    width:200px;
+    border-radius:  50px;
+    border:2px solid rgb(0, 80, 0);
+    font-size:15px;
+    margin:5px;
+    transition: .5s ease;
+    margin-left: 67px;
+    margin-top: 80px;
+}
+.learnmore-btnjob:hover{
+    color: rgb(0, 80, 0);
+    background-color: rgb(204, 204, 204); 
+    border:2px solid    rgb(0, 80, 0);
+}
+
+ 
+.hand1{
+    height:450px!important;
+    padding:top;
+    width:100%;
+    object-fit: cover;
+    margin-left: -120px;
+} 
+.box1{
+    margin-left: 20px;
+}
+
+/*BETTER-ENDS-1*/
+/*FOOTER*/
+.footer{
+    background-image: url("img/footer.jpg");
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+}
+.text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:green;
+}
+.text p{
+    color:green;
+    font-size:18px;
+}
+
+.learnmore-btnfoot{
+    color:#fff;
+    background: rgb(0, 80, 0);
+    padding:10px;
+    width:200px;
+    border-radius:  50px;
+    border:2px solid rgb(0, 80, 0);
+    font-size:15px;
+    margin:5px;
+    transition: .5s ease;
+    margin-top: 20px;
+}
+.learnmore-btnfoot:hover{
+    color: rgb(0, 80, 0);
+    background-color: rgb(204, 204, 204); 
+    border:2px solid   rgb(0, 80, 0);
+}
+.nav>li>a{
+    color:green;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+/*FOOTER-ENDS*/
+@media screen and (max-width: 600px) {
+    .controls.autoplay {
+        width: 45%;
+        margin: auto;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -10%;
+    }
+    .video {
+        height: auto;
+        width: 200px
+    }
+    .img-responsive{
+        display: block;
+        max-width: 74%;
+    }
+}

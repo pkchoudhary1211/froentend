@@ -1,0 +1,48 @@
+header{
+    background-color: rgb(99, 152, 250);
+    width: 100%;
+    height: 40px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    font-family: Roboto, 'Segoe UI';
+}
+
+.discription-unittest-subtable td{
+    width: 150px;
+}
+.subtable-background{
+    padding: 20px;
+}
+.subtable-background td{
+  background-color:rgb(222, 231, 235);
+}
+.subtable-background td:hover{
+  background-color:grey;
+}
+.subtable-background-td{
+     background-color:rgb(222, 231, 235);
+}
+.subtable-background-td:hover{
+    background-color:grey;
+}
+.subtd-align-right{
+    text-align: right;
+}
+
+.invoice-section{
+    padding: 70px;
+}
+
+.invoice-section img{
+    width: 90px;
+    height: 90px;
+}
+footer{
+    background-color: rgb(105, 155, 248);
+    width: 100%;
+    height: 40px;
+}

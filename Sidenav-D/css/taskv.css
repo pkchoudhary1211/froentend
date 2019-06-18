@@ -1,0 +1,258 @@
+
+/*by dinesh of task 5 practice*/
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #eee;
+    font-family: sans-serif;
+    padding: 70px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-top {
+    background-color: #222;
+    padding: 10px 20px;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
+}
+
+.nav-top::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.nav-top li {
+    list-style: none;
+    display: block;
+}
+
+.nav-top li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-top ul.left-nav {
+    float: left;
+}
+
+.nav-top ul.right-nav {
+    float: right;
+}
+
+
+.nav-top ul.right-nav li a {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-top ul.right-nav li a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+    border-radius: 50%;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #222;
+    z-index: 99;
+    padding-top: 20px;
+}
+
+.user-image--container {
+    padding: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.user-image--container .user-image {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 15px;
+}
+
+.user-image--container .user-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-image--container .user-name {
+    color: #fff;
+}
+
+.sidebar-tabs {
+    padding: 15px;
+}
+
+.sidebar-tabs li {
+    list-style: none;
+    display: block;
+    text-align: center;
+    transition: .5s;
+}
+
+.sidebar-tabs li:hover {
+    background: #777;
+}
+
+.sidebar-tabs li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.main-content--wrapper {
+    margin-left: 250PX;
+}
+
+.main-content--container {
+    padding: 20px
+}
+
+.main-content--container h1 {
+    margin-bottom: 25px;
+}
+
+.main-content--container div {
+    margin-bottom: 30px;
+}
+
+.image-logo {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+by me of taskv
+.right-circle-img-div{
+    
+    padding:4px 9px;
+    width: 20px;
+    height: 25px;
+    border-radius: 48%;
+    float: right;
+    background-color:#ece4e4;
+    margin-right: 24px;
+    margin-top: 20px;
+}
+.header-wrraper{
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    z-index: 99;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo-class-div{
+    float: left;
+    margin-left: 47px;
+    margin-top: 15px;
+    
+}
+.logo-img{
+    width: 132px;
+}
+.user-img{
+    width: 20px;
+    position: absolute;
+top: 27px;    
+}
+.left-sidebar-div-wrraper{
+    background-color: black;
+    color: white;
+    width: 300px;
+   height: 757px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    }
+.left-sidebar-div-wrraper li{
+   
+    list-style: none;
+}
+.left-sidebar-div-wrraper li a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+.profile-pic-div{
+   border-radius: 129px;
+    height: 100px;
+    background-image: url(img/girlwithlaptop.jpg);
+    width: 102px;
+    background-size: cover;
+   }
+.main-content-section{
+    display: flex;
+    
+}
+
+.right-sidebar-div-wraper{
+    z-index: -2;
+        margin-top: 19px;
+    margin-left: 335px;
+    width: 76%;
+        line-height: 29px;
+}    
+.profile-div{
+     position: absolute; 
+    top: 150px;
+    left: 83px;
+}  
+.menu-item-div{
+    top: 364px;
+    padding: 10px;
+   
+    position: absolute;
+    top: 250;
+    left: 83px;
+}
+.right-content-div{
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.right-content-div p{
+    font-weight: bold;
+    font-size: 3vh;
+    opacity: 0.7;
+}
+.right-content-div h1{
+    font-size: 4vh;
+    margin-bottom: 6px;
+}
+*/
+

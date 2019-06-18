@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Add Data to the table</title>
+</head>
+
+
+<html>
+
+<body>
+    <h2>Add/Update Person Form</h2>
+    <div id="data">
+        <form id="person">
+            <br><br>
+            Name: <input id="name" name="name" type="text">
+            <br><br>
+            Gender: <input name="gender" type="radio" value="Male"> Male
+            <input name="gender" type="radio" value="Female"> Female
+            <br><br>
+            Age: &nbsp;&nbsp;&nbsp; <input id="age" name="age" type="text">
+            <br><br>
+            City: &nbsp;&nbsp;&nbsp;<select id="city" name="city">
+                <option>Delhi</option>
+                <option>Mumbai</option>
+                <option>Bengaluru</option>
+            </select>
+            <br><br>
+            <input id="button" type="button" value=" Reset " onclick="ResetForm()">&nbsp;&nbsp;&nbsp;
+            <input id="add" type="button" value=" Add ">
+            <input id="btn" type="button" value=" Update ">
+        </form>
+    </div>
+</body>
+
+<script>
+
+    function AddData()
+    {
+        var x = document.getElementById("age").value;
+        var y = document.getElementById("name").value;
+        var letters = '/^[a-zA-Z]+$/';
+        if ((parseInt(x) != (x)) && (y == parseInt(y)))
+        {
+            alert("Wrong Value Entered");
+        }
+        else
+        {
+            var rows = "";
+            var name = document.getElementById("gender").value;
+            var gender = document.getElementById("gender").value;
+            var age = document.getElementById("age").value;
+            var city = document.getElementById("city").value;
+
+            rows += "<tr><td>" + name + "</td><td>" + gender + "</td><td>" + age + "</td><td>" + city + "</td></tr>";
+            $(rows).appendTo("#list tbody");
+        }
+    }
+
+    function ResetForm()
+    {
+        document.getElementById("person").reset();
+    }
+</script>
+
+
+
+
+
+</html>

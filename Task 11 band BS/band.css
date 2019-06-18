@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.dates{
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+}
+
+.panel-default {
+    margin-left: 72px;
+    margin-right: 72px;
+    border-radius: 0px;
+    color: grey;
+}
+
+.panel-default {
+    border-radius: 0px;
+}
+
+@media (min-width: 1200px) {
+    .container2{
+        width: 800px;
+    }
+}
+
+
+.label-danger {
+    background-color: #d9534f;
+    margin: 10px;
+}
+.card, .btn, .form-control { border-radius: 0; }
+.contact h1{
+    color:rgb(46, 46, 46);
+}
+.contact p{
+    color:rgb(100, 100, 100);
+}
+
+.theme{
+    color:#fff;
+    background-color:rgb(46, 46, 46);
+    padding: 50px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

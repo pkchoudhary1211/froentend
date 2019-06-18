@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    
+}
+.nav-ul li:hover{
+    background-color: firebrick;
+    transition: 0.7s;
+    
+} 
+.nav-ul img{
+    width: 145px;
+}
+.nav-ul li{
+    
+    display: inline-block;
+    list-style: none;
+    padding: 20px 100px;
+    
+}
+
+
+#nb.small-logo{
+    background-color: blueviolet;
+   opacity: 1;
+    overflow: hidden;
+}
+
+#nb.sm li{
+/*    background-color: blueviolet;*/
+    padding: 7px 100px;
+ transition: 0.7s;
+/*    overflow: hidden;*/
+}
+
+
+/*
+.small-scroll{
+    background-color: blueviolet!;
+}
+*/
+.nav-div{
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background-color: #08a7f5;
+    opacity: 0.5;
+/*
+    position: fixed;
+    top: 0;
+*/
+   
+    
+}
+.nav-div ul{
+    margin-bottom: 0;
+}
+
+
+/*1div*/
+.first-div{
+ width: 100%;
+    height: 500px;
+    background-color: #08a7f57d;
+    position: relative;
+}
+
+.first-div h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+.first-inner-div{
+   position: absolute;
+    top: 194px;
+    left:207px;
+    color: white
+}
+.btn-inp{
+    margin-top: 40px;
+}
+.btn-inp input{
+    padding:  10px 25px;
+}
+
+.img-search{
+    width: 18px;
+    position: relative;
+    left: 21px;
+    z-index: 99;
+}
+
+.btn-inp button{
+  background-color: red;
+    color: white;
+    padding: 12px 26px;
+    border: none;
+}
+.img-div{
+    float: right;
+    width: 600px;
+    height: 100%;
+    text-align: right;
+}
+.img-div ::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.img-div img{
+    height: 100%;
+}
+
+
+
+/*2div*/
+
+/*
+.secound-block-div .first-block{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 17px 39px;
+    text-align: center;
+    margin-right: 40px;
+    border-radius: 5px;
+     box-shadow: 2px 10px;
+    background-color: white;
+    }
+
+.secound-block-div{
+    position: relative;
+    top: -53px;
+    left: 200px;
+    }
+*/
+
+.con3{
+    display: flex;
+}
+.s-div  .imgw{
+    width: 30px;
+}
+.s-div{
+ position: relative;
+    top: -78px;
+}
+
+.block{
+   width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+    padding: 30px 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    }
+
+/*accourdian*/
+
+.title-h4{
+font-weight: bold;
+    margin: 62px 22px;
+    font-size: 5vh;
+}
+
+.accordion {
+/*      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+    
+}
+.pnl{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ip{
+    position: relative;
+}
+
+.searchicon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.btn-panel-container{
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn{
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+     outline: 0;
+}
+.active, .accordion:hover {
+  background-color: white;
+    color: blue;
+    border: none;
+    
+}
+
+.accordion:after {
+  content: '\02C5';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+    color: blue;
+}
+
+.active:after {
+  content: "\005E";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.third-div-fask-que{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/*4div*/
+.fourth-div{
+    display: flex;
+    background-color: #08a7f57d;
+    color: white;
+}
+
+.inner-footer-div{
+/*        padding: 10px 82px;    */
+}
+
+/*5div*/
+.fifth-div{
+    padding: 30px 50px;
+     background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.fifth-div h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.apc{
+     margin-left: 10px;   
+}
+
+
+
+.inner-footer-div a{
+        color: #337ab7;
+    text-decoration: none;
+    display: inherit;
+    margin: 25px;
+}

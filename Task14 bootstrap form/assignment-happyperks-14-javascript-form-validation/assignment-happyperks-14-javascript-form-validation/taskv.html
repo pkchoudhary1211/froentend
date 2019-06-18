@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/taskv.css">
+ <script src="./javascript/taskv.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="form-div">
+   <form id="formid" action="post">
+      <div class="ip">
+           <input type="text" placeholder="name" name="name" id="nameip"  onblur="f1nm()"/>
+           <label id="lbnm"></label>
+       </div>
+       <div class="ip">
+           <input type="text" placeholder="email" name="email" id="emailip" onblur="f2emailnm()" />
+             <label id="lbemail"></label>
+       </div>
+       <div class="ip">
+           <input type="password" placeholder="pass" name="pass" id="passip" onblur="f2pass()" />
+            <label id="f2pass"></label>
+       </div>
+       <div class="ip">
+          <input type="password" placeholder="rpass" name="rpass" id="rpassip" onblur="f2rpass()" />
+           <label id="f2rpass"></label>
+       </div>
+           <input type="checkbox" placeholder="pass" name="pass" id="passip" />if you are ready to agree terms and condition
+       <div class="ip">
+           <button type="submit" onblur="f2rpass()">signup</button>
+       </div>
+   </form>
+    
+</div>
+ </body>
+</html>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+body {
+
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#try{
+	background-image: url('img/imageLaptop.jpg');
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -2;
+	opacity: 0.5;
+}
+body {
+	
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#main-root-div{
+	position: relative;
+	padding-left: 35%;
+	padding-top: 13%;
+	height: 100vh;
+}
+
+#main-div-panel{
+	background-color: rgb(246, 245, 245);
+	z-index: 10;
+	border-radius: 2%;
+	width:45%;
+	height: 320px;
+	box-shadow: 0px 0px 10px 2px #888888;
+	
+}
+#imgdiv{
+	margin-left: 130px;
+    height: 43px;
+    width: 138%;
+	margin-top: 19px;
+	margin-bottom: -2%;
+}
+#iconimgid{
+	margin-top: 3%;
+	margin-left: -15px;
+	height: 49px;
+	width: 26%;
+	}
+	
+#textusernameid{
+	margin-left: 18%;
+	margin-top: 14%;
+	border-radius: 5px;
+	height: 40px;
+	width: 63%;
+	margin-bottom: 4%;
+	border: 2px solid  rgb(107, 107, 107);
+	background-color: rgb(246, 245, 245);
+	}
+
+#textpasswordid{
+	margin-left: 18%;
+	border-radius: 5px;
+	height: 40px;
+	width: 63%;
+	margin-bottom: 3%;
+	border: 2px solid rgb(107, 107, 107);
+	background-color: rgb(246, 245, 245);
+}
+#forgotlinkid{
+	margin-left: 18%;
+	margin-bottom: 7%;
+	
+}
+
+#buttondiv{
+	margin-left: 18%;
+}
+
+#buttonid{
+	
+	background-color: rgb(78, 160, 80);
+	border: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5%;
+	width: 77%;
+	height: 40px;
+
+}
+
+
+
+

@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Invoice</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
+
+		body {
+			font-family: 'Nunito', sans-serif;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5 {
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+
+		address {
+			font-style: normal;
+		}
+
+		section {
+			padding: 30px 15px;
+			border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+		}
+
+		table,
+		th,
+		td {
+			border: 1px solid rgba(0, 0, 0, 0.05);
+			border-collapse: collapse;
+			font-size: 13px;
+		}
+
+		th,
+		td {
+			padding: 10px 10px 5px;
+			font-weight: 700;
+		}
+
+		table th {
+			vertical-align: initial;
+		}
+
+		.tax-table,
+		.tax-table tr,
+		.tax-table th,
+		.tax-table td {
+			border: 0;
+			text-align: center;
+		}
+
+		.tax-table td {
+			padding: 0 10px;
+		}
+
+		.container {
+			width: 1000px;
+			margin: 40px auto;
+			border: 1px solid #eee;
+		}
+
+		.d-flex {
+			display: flex;
+		}
+
+		.align-item-center {
+			align-items: center;
+		}
+
+		.justify-space-between {
+			justify-content: space-between;
+		}
+
+		.justify-center {
+			justify-content: center;
+		}
+
+		.font-13 {
+			font-size: 13px;
+		}
+
+		.font-16 {
+			font-size: 16px;
+		}
+
+		.font-18 {
+			font-size: 18px;
+		}
+
+		.font-20 {
+			font-size: 20px;
+		}
+
+		.font-weight-400 {
+			font-weight: 400;
+		}
+
+		.font-weight-600 {
+			font-weight: 600;
+		}
+
+		.font-weight-700 {
+			font-weight: 700;
+		}
+
+		.text-uppercase {
+			text-transform: uppercase;
+		}
+
+		.text-capitalize {
+			text-transform: capitalize;
+		}
+
+		.text-muted {
+			color: rgba(0, 0, 0, 0.7);
+		}
+
+		.text-center {
+			text-align: center;
+		}
+
+		.no-margin {
+			margin: 0;
+		}
+
+		.no-padding {
+			padding: 0;
+		}
+
+		.no-padding-lr {
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.width-300px {
+			width: 300px;
+		}
+
+		.max-width-255px {
+			max-width: 255px;
+		}
+
+		.section-3 div {
+			flex-grow: 1;
+			max-width: 200px;
+			text-align: center;
+		}
+
+		.section-5 p {
+			margin: 3px 0;
+		}
+
+		.section-5 p span {
+			flex-grow: 1;
+			border: 1px solid #eee;
+			padding: 5px;
+			text-align: center;
+		}
+
+		.section-5 p span:nth-child(2) {
+			border-left: 0;
+			border-right: 0;
+		}
+
+		.section-6 div {
+			flex-grow: 1;
+			margin-right: 15px;
+		}
+
+		.section-6 ol {
+			padding: 0;
+			list-style-position: inside;
+		}
+
+		.section-6 ol,
+		.section-6 ol li,
+		.section-6 p {
+			font-size: 13px;
+			margin-top: 0;
+		}
+
+		.invoice-footer {
+			padding: 15px;
+			border-bottom: 0;
+		}
+
+		.invoice-footer div {
+			flex-grow: 1;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<!-- SECTION 1 -->
+		<section class="invoice-header d-flex justify-space-between">
+			<div class="invoice-header-left">
+				<h3 class="font-weight-700 font-20">Vijaya Traders Private Limited</h3>
+				<p class="text-uppercase text-muted font-weight-600 font-18 no-margin">
+					<span>Gstin :</span>
+					<span>04arcpd987431z5</span>
+				</p>
+			</div>
+			<div class="invoice-header-right max-width-255px">
+				<address class="font-weight-600">
+					5/1, Penthouse 01, 6th Floor, Rich Homes Apartment, Richmond Road,Bengaluru,Karnataka
+					560025
+				</address>
+			</div>
+		</section>
+		<!-- SECTION 1 ENDS -->
+
+		<!-- SECTION 2 -->
+		<section class="section-2 d-flex justify-space-between">
+			<div class="invoice-billing-details max-width-255px">
+				<h3 class="font-20">Billing Details</h3>
+				<p class="no-margin font-weight-600">Kantech Solution Private Limited</p>
+				<address class="font-weight-600 text-muted">
+					Ground Floor, Building 2A, 23 & 24 AMR Tech Park Internal Rd Hongasandra, Bengaluru, Karnataka
+					560058
+				</address>
+			</div>
+			<div class="invoice-shipping-details max-width-255px">
+				<h3 class="font-20">Shipping Details</h3>
+				<p class="no-margin font-weight-600">Kantech Solution Private Limited</p>
+				<address class="font-weight-600 text-muted">
+					Ground Floor, Building 2A, 23 & 24 AMR Tech Park Internal Rd Hongasandra, Bengaluru, Karnataka
+					560058
+				</address>
+			</div>
+		</section>
+		<!-- SECTION 2 ENDS -->
+
+		<!-- SECTION 3 -->
+		<section class="section-3 invoice-date d-flex justify-center">
+			<div class="invoice-date">
+				<h5 class="font-weight-600 font-16">Invoice Date</h5>
+				<p class="no-margin font-weight-600 text-muted">23/04/2017</p>
+			</div>
+			<div class="invoice-pay-terms">
+				<h5 class="font-weight-600 font-16">Payment Terms</h5>
+				<p class="no-margin font-weight-600 text-muted">On Reciept</p>
+			</div>
+			<div class="invoice-due-date">
+				<h5 class="font-weight-600 font-16">Due Date</h5>
+				<p class="no-margin font-weight-600 text-muted">23/04/2017</p>
+			</div>
+		</section>
+		<!-- SECTION 3 ENDS -->
+
+		<!-- SECTION 4 -->
+		<section class="section-4 no-padding-lr invoice-table">
+			<table class="table" style="width: 100%;">
+				<tr>
+					<td>S.No</td>
+					<td>Item Description</td>
+					<td>HSN</td>
+					<td>Qty.</td>
+					<td>Unit</td>
+					<td>Rate Per Item</td>
+					<td>Total</td>
+					<td>Discount</td>
+					<td>Taxable Value</td>
+					<td>
+						<table style="width: 100%;" class="tax-table">
+							<tr>
+								<td colspan=2 style="padding-bottom: 15px">CGST</td>
+							</tr>
+							<tr>
+								<td class="font-13">Rate</td>
+								<td class="font-13">Amt.</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table style="width: 100%;" class="tax-table">
+							<tr>
+								<td colspan=2 style="padding-bottom: 15px">SGST</td>
+							</tr>
+							<tr>
+								<td class="font-13">Rate</td>
+								<td class="font-13">Amt.</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table style="width: 100%;" class="tax-table">
+							<tr>
+								<td colspan=2 style="padding-bottom: 15px">IGST</td>
+							</tr>
+							<tr>
+								<td class="font-13">Rate</td>
+								<td class="font-13">Amt.</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td>1.</td>
+					<td>Bathing Soap</td>
+					<td>34011110</td>
+					<td>10</td>
+					<td>pcs</td>
+					<td>Rs.20</td>
+					<td>Rs.200</td>
+					<td>-</td>
+					<td>Rs.200</td>
+					<td>
+						<table style="width: 100%;" class="tax-table">
+							<tr>
+								<td>9%</td>
+								<td>Rs.18</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table style="width: 100%;" class="tax-table">
+							<tr>
+								<td>9%</td>
+								<td>Rs.18</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table style="width: 100%;" class="tax-table">
+							<tr>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td>2.</td>
+					<td>Shampoo</td>
+					<td>34011110</td>
+					<td>8</td>
+					<td>pcs</td>
+					<td>Rs.50</td>
+					<td>Rs.400</td>
+					<td>-</td>
+					<td>Rs.200</td>
+					<td>
+						<table style="width: 100%;" class="tax-table">
+							<tr>
+								<td>9%</td>
+								<td>Rs.18</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table style="width: 100%;" class="tax-table">
+							<tr>
+								<td>9%</td>
+								<td>Rs.18</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table style="width: 100%;" class="tax-table">
+							<tr>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="6" class="text-uppercase" style="text-align: right">Total</td>
+					<td>Rs.600</td>
+					<td>-</td>
+					<td>Rs.600</td>
+					<td>
+						<table style="width: 100%;" class="tax-table">
+							<tr>
+								<td></td>
+								<td>Rs.54</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table style="width: 100%;" class="tax-table">
+							<tr>
+								<td></td>
+								<td>Rs.54</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table style="width: 100%;" class="tax-table">
+							<tr>
+								<td></td>
+								<td>-</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<!-- SECTION 4 ENDS -->
+
+		<!-- SECTION 5 -->
+		<section class="section-5 invoice-total">
+			<div class="d-flex justify-space-between">
+				<p class="font-weight-600">Total invoice value (in figure)</p>
+				<p class="width-300px font-weight-600">Rs.708</p>
+			</div>
+			<div class="d-flex justify-space-between">
+				<p class="font-weight-600">Total invoice value (in words)</p>
+				<p class="width-300px font-weight-600">Rupees seven hundered and eight only</p>
+			</div>
+			<div class="d-flex justify-space-between">
+				<p class="font-weight-600">Amount of Tax subject to Reverse Charges</p>
+				<p class="width-300px d-flex align-item-center font-weight-600">
+					<span>Rs.54</span>
+					<span>Rs.54</span>
+					<span>-</span>
+				</p>
+			</div>
+		</section>
+		<!-- SECTION 5 ENDS -->
+
+		<!-- SECTION 6 -->
+		<section class="section-6 d-flex" style="padding-bottom: 70px">
+			<div class="t-n-c">
+				<h4>Terms & Conditions</h4>
+				<ol>
+					<li>The shipping cost needs to be beared by the seller</li>
+					<li>The seller is not responsible for any damage that happens during the transit</li>
+				</ol>
+			</div>
+
+			<div class="c-notes no-margin">
+				<h4>Customer Notes</h4>
+				<p>This order is shipped through blue dart courier</p>
+			</div>
+
+			<div class="attachment">
+				<h4>Atachment</h4>
+				<ol>
+					<li>Shipping_receipt.pdf</li>
+				</ol>
+			</div>
+
+		</section>
+		<!-- SECTION 6 ENDS -->
+
+		<!-- SECTION 7 -->
+		<section class="invoice-footer d-flex justify-space-between">
+			<div class="company-logo">
+				<img src="http://13.232.168.222/user-portal/assets/storage/img/logo-footer.png" width="160">
+			</div>
+			<div class="ceo-sign text-center">
+				<p class="font-weight-600">For Vijaya Traders Pvt Ltd</p>
+			</div>
+		</section>
+		<!-- SECTION 7 ENDS -->
+
+	</div>
+</body>
+
+</html>
